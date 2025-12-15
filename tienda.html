@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="row bg-primary">
+                <div class="col p-3">
+                    <img src="imagenes/design.JPG" alt="img1">
+                </div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg bg-primary">
+                        <div class="container-fluid">                            
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="tienda.html">Tienda</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Más
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>                                    
+                                </ul>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <main>
+        <h1 class="text-center">Nuestros Productos</h1>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">ropa</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">tecnologia</button>
+            </li>            
+            </ul>
+            <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="container p-4">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+  <img src="imagenes/polo1.jpeg" class="card-img-top" alt="polo1">
+  <div class="card-body">
+    <h5 class="card-title text-center">camiseta de hombre</h5>
+    <p class="card-text">algodon 100% con diseño<br>minimalista</p>
+    <a href="#" class="btn btn-primary">ver tallas</a>
+  </div>
+</div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+  <img src="imagenes/polo2.jpeg" class="card-img-top" alt="polo2">
+  <div class="card-body">
+    <h5 class="card-title text-center">camiseta de mujer</h5>
+    <p class="card-text">algodon 100% con diseño<br>minimalista</p>
+    <a href="#" class="btn btn-primary">ver tallas</a>
+  </div>
+</div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+  <img src="imagenes/polo3.jpeg" class="card-img-top" alt="polo3">
+  <div class="card-body">
+    <h5 class="card-title text-center">camiseta de niño</h5>
+    <p class="card-text">algodon 100% con diseño<br>minimalista</p>
+    <a href="#" class="btn btn-primary">ver tallas</a>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="container p-4">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+  <img src="imagenes/laptop2.jpeg" class="card-img-top" alt="laptop2">
+  <div class="card-body">
+    <h5 class="card-title text-center">laptop lenovo</h5>
+    <p class="card-text">maximo rendimiento para<br>desarrolladores</p>
+    <a href="#" class="btn btn-success">ver especificaciones</a>
+  </div>
+</div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+  <img src="imagenes/laptop1.jpeg" class="card-img-top" alt="laptop1">
+  <div class="card-body">
+    <h5 class="card-title text-center">laptop HP</h5>
+    <p class="card-text">maximo rendimiento para<br>desarrolladores</p>
+    <a href="#" class="btn btn-success">ver especificaciones</a>
+  </div>
+</div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+  <img src="imagenes/laptop3.jpeg" class="card-img-top" alt="laptop3">
+  <div class="card-body">
+    <h5 class="card-title text-center">laptop dell</h5>
+    <p class="card-text">maximo rendimiento para<br>desarrolladores</p>
+    <a href="#" class="btn btn-success">ver especificaciones</a>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+            </div>
+            </div>
+    </main>
+    <footer>
+            <div class="row bg-dark text-white p-3">
+                <h4 class="text-center">Evaluación Integral Isil © 2025-II</h4>
+                <div class="col text-right">Curso de Diseño y Desarrolo Web</div>
+                <div class="col text-end">                    
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube p-3"></i>
+                    <i class="bi bi-tiktok"></i>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="row bg-primary">
+                <div class="col p-3">
+                    <img src="imagenes/design.JPG" alt="img1">
+                </div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg bg-primary">
+                        <div class="container-fluid">                            
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="tienda.html">Tienda</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Más
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>                                    
+                                </ul>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center p-4">
+                    <h1>Novedades y Preguntas del Sistema</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7 p-4">
+                    <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-list-ul"></i> Todas (3)</a>
+                        <h5>Registro completo</h5>                    
+                    <div class="alert alert-success" role="alert">
+                    [Éxito] Se ha desplegado la version 5.3.3 de bootstrap.
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                    [Critico] Retraso en la carga de imagenes. Estamos trabajando en una solucion.
+                    </div>
+                    <div class="alert alert-warning" role="alert">
+                    [Aviso] La base de datos estara en mantenimiento este fin de semana.
+                    </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-check-circle-fill --bs-success"></i>Éxito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-exclamation-triangle-fill --bs-danger"></i>Critico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-star --bs-warning"></i>Aviso</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="col-5 p-4">
+                    <h3>preguntas Frecuentes<br>(acordeon)</h3>
+                    <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        ¿Cuando es el proximo webinar?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        el proximo evento en vivo sera<strong>30 de noviembre.</strong> Consulta la sección de blog para mas detalles sobre la inscripcion.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        ¿Como reporto un error en la tienda?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Para reportar un error en la tienda, por favor <strong>contacta al soporte técnico</strong>  a través del formulario de contacto disponible en la sección de contacto.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        ¿ Hay nuevas ofertas disponibles?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Sí, tenemos nuevas ofertas disponibles cada semana. <strong>Visita la tienda regularmente</strong> para aprovechar las últimas promociones y descuentos.
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+            </div>
+        </div>        
+    </main>
+    <footer>
+            <div class="row bg-dark text-white p-3">
+                <h4 class="text-center">Evaluación Integral Isil © 2025-II</h4>
+                <div class="col text-right">Curso de Diseño y Desarrolo Web</div>
+                <div class="col text-end">                    
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube p-3"></i>
+                    <i class="bi bi-tiktok"></i>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
